@@ -1,0 +1,45 @@
+.is_blocked {
+    color: #a9a9a9;
+    font-size: 70%;
+}
+.month {
+    color: #d3d3d3;
+    font-size: 70%;
+}
+.checkbut {
+    color: #c0c0c0;
+}
+.submit {
+    color: #8d8d8d;
+    border: none;
+    border-radius: 3px;
+    background-color: #dcdcdc;
+    height: 20px;
+}
+.buttons {
+    background-color: #f2f3f4;
+    height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.name {
+    color: #a9a9a9;
+}
+.age {
+    color: #a9a9a9;
+}
+.row {
+    display: flex;
+    background-color: #f2f3f4;
+    height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col {
+    flex: auto;
+}

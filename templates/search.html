@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/search.css" >
+    <title></title>
+</head>
+<body>
+<div class="row">
+    <div class="col"><b>База пользователей</b></div>
+    <div class="col"><a href = "/">Все пользователи</a></div>
+    <div class="col"><a href = "/search">Поиск</a></div>
+    <div class="col"><a href = "/add_user">Добавить</a></div>
+</div>
+    <h1>Поиск</h1>
+    <input type="text" placeholder="Введите имя">
+    <input class="button" type="submit" value="Найти">
+    <h3>Найдено: {{ found_users }}</h3>
+    {% for user in users_list %}
+ <div class="str">
+    <p><a class="user_details"> {{ user.name }}</a>,
+        {{ user.age }} {% if user.is_blocked %} заблокирован, разблокируется {{ user.unblock_date }}
+    </p>
+</div>
+    {% endif %}
+    {% endfor %}
+</body>
+</html>

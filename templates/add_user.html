@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/add_user.css" >
+    <title></title>
+</head>
+<body>
+<div class="row">
+    <div class="col"><b>База пользователей</b></div>
+    <div class="col"><a href = "/">Все пользователи</a></div>
+    <div class="col"><a href = "/search">Поиск</a></div>
+    <div class="col"><a href = "/add_user">Добавить</a></div>
+</div>
+<h1>Добавить пользователя</h1>
+<form method="post">
+    <div class="buttons">
+        <input class="name" type="text" name="name" placeholder="Имя">
+        <input class="age" type="text" name="age" placeholder="Возраст">
+        <input class="checkbut" type="checkbox" name="is_blocked"><a class="is_blocked">Заблокирован</a>
+        <input class="date" name="unblock_date">
+        <input class="submit" type="submit" value="Добавить">
+    </div>
+</form>
+</body>
+</html>
+
+

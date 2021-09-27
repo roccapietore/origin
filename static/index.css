@@ -1,0 +1,24 @@
+.user_details {
+    color: #00b638;
+    font-size: 20px;
+}
+
+.str {
+    background-color: #f2f3f4;
+    height: 35px;
+
+}
+
+.row {
+    display: flex;
+    background-color: #f2f3f4;
+    height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col {
+    flex: auto;
+}
